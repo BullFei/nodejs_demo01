@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			.hide{
+				display: none
+			}
+		</style>
+	</head>
+	<body>
+		<h1>登录</h1>
+		<form action="./login" method="post" class = '{formClass}'>
+			<label for="email">
+				E-mail：<input type="text" name = 'email' value = '' />
+			</label>
+			<label for="password">
+				密码：<input type="text" name = 'password' value = '' />
+			</label>
+			<label for="submit">
+				<input type="submit" />
+			</label>
+		</form>
+		<div class = '{infoClass}'>
+			Email： {email}，密码：{password}
+		</div>
+	</body>
+</html>
